@@ -10,7 +10,7 @@ import Footer from "./components/Footer";
 
 function App() {
   return (
-    <div>
+    <div className="flex flex-col w-screen h-screen">
       {/* <DemoComponent /> */}
       <Header />
       <Medium />
