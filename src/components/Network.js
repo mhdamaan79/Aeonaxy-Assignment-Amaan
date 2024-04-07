@@ -12,25 +12,27 @@ import profile10 from "../assets/profile-pictures/asset 10.png";
 import profile11 from "../assets/profile-pictures/asset 11.png";
 import profile12 from "../assets/profile-pictures/asset 12.png";
 
+// -- Network component --
 const Network = () => {
   return (
-    <div className="flex flex-col gap-20 bg-orange-300 px-8 py-14">
+    <div className="flex flex-col gap-16 lg:gap-20 bg-orange-300 px-4 py-10 lg:py-14">
+      {/* Section 1 */}
       <div className="flex flex-col justify-center items-center gap-4">
-        <h1 className="text-8xl text-center">
+        <h1 className="text-6xl lg:text-8xl text-center">
           A living network of <br></br> curious minds.
         </h1>
-        <p className="text-lg text-center w-2/4">
+        <p className="text-base lg:text-lg text-center w-3/4 lg:w-2/4">
           Medium presents itself as a space that allows great thinking and ideas
           to flourish by removing barriers and connecting passionate writers,
-          thinkers, and readers in an engaging community. The image portrays
-          Medium as a fertile ground where the best ideas can find an audience,
-          gain traction, evolve through discourse, and ultimately grow and make
-          an impact.
+          thinkers, and readers in an engaging community. Medium presents itself
+          as a space that allows great thinking and ideas.
         </p>
       </div>
+
+      {/* Section 2 */}
       <div className="flex justify-center items-center gap-4 w-full">
-        {/* 1 */}
-        <span className="flex flex-col md:w-1/3">
+        {/* A */}
+        <span className="flex flex-col w-1/3">
           <span className="flex flex-row justify-start items-center gap-4 py-2 border-y-2 border-gray-800">
             <img
               src={profile1}
@@ -65,8 +67,8 @@ const Network = () => {
           </span>
         </span>
 
-        {/* 2 */}
-        <span className="flex flex-col md:w-1/3">
+        {/* B */}
+        <span className="flex flex-col w-1/3">
           <span className="flex flex-row justify-start items-center gap-4 py-2 border-y-2 border-gray-800">
             <img
               src={profile5}
@@ -101,8 +103,8 @@ const Network = () => {
           </span>
         </span>
 
-        {/* 3 */}
-        <span className="flex flex-col md:w-1/3">
+        {/* C */}
+        <span className="flex flex-col w-1/3">
           <span className="flex flex-row justify-start items-center gap-4 py-2 border-y-2 border-gray-800">
             <img src={profile9} alt="GEN" className="w-10 h-10 inline-block" />
             <p>GEN</p>
